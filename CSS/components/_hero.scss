@@ -1,5 +1,5 @@
 .hero {
-  background: url(../../../Chocco/img/hero/blueleaf.png) right 25% bottom no-repeat;
+  background: url(../img/hero/blueleaf.png) right 0% bottom no-repeat;
   background-color: $blue;
   height: 100vh;
   min-height: 652px;
@@ -7,14 +7,14 @@
   position: relative;
 
   &:before {
-    content: url(../../../Chocco/img/hero/leaf3.png);
+    content: url(../img/hero/leaf3.png);
     position: absolute;
     bottom: -40px;
     left: 2%;
   }
 
   &:after {
-    content: url(../../../Chocco/img/hero/comp.png);
+    content: url(../img/hero/comp.png);
     position: absolute;
     bottom: -50px;
     right: 0;
@@ -28,7 +28,7 @@
   justify-content: space-between;
   height: 100%;
   padding: 24px 8px 50px;
-  background: url(../../../Chocco/img/hero/Батончики.png) right center / 50% auto no-repeat;
+  background: url(../img/hero/Батончики.png) right center / 50% auto no-repeat;
   /* для того чтоб картинка находилана текст*/
 }
 
